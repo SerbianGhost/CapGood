@@ -31,6 +31,9 @@ body {
   gap: 5px;
   list-style-type: none;
 }
+.home-page {
+  padding: 5px;
+}
 .home-page__button {
   border-radius: 5px;
   width: 244px;
@@ -39,7 +42,6 @@ body {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
 }
 button.home-page__button {
   border: 1px solid rgba(130, 82, 225, 1);
