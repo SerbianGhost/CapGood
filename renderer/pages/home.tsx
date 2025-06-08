@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
       <main className="home-page">
-        <button className="button home-page__button home-page__button_type_create_content">
+        <Link href="/workSpace" className="button home-page__button home-page__button_type_create_content">
           <svg
             width="20"
             height="20"
@@ -21,7 +21,7 @@ export default function HomePage() {
             />
           </svg>
           <span>Создать проект</span>
-        </button>
+        </Link>
 
         <section className="home-page__buttons-container">
           <button className="button home-page__button home-page__button_type_record">
